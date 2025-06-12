@@ -33,7 +33,12 @@ alignment_sequences, df_alignment, suspect_matrix, source_matrix = ta.alignment(
     methods={}
 )
 
-# Results
+# Score the alignment
+score, sequences = ta.alignmentScore(alignment_sequences)
+print(f"Alignment score: {score}")
+```
+
+## The Results
 
 The alignment_sequences will look like this:
 [[(0, 0, 1, 'exact_match'),
@@ -47,10 +52,7 @@ b. The sequence of aligned tokens from the second input list
 c. The alignment score assigned to these tokens
 d. The reason for the alignment
 
-# Score the alignment
-score, sequences = ta.alignmentScore(alignment_sequences)
-print(f"Alignment score: {score}")
-```
+
 
 ## Advanced Usage
 
