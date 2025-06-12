@@ -66,8 +66,8 @@ import trelasticext as ee # If you would like to use synonyms in Elasticsearch, 
 synonyms = ee.load_synonyms("path/to/elasticsearch/analysis/your_lexicon')
 
 
-# Use in alignment
-In the following example, the two texts exhibit word boundary errors, typographical mistakes, orthographic variations, differences in Gematria, and the use of synonyms. However they are exactly similar. 
+# In the following alignment example, the two texts exhibit word boundary errors, typographical mistakes, orthographic variations, differences in Gematria, and the use of synonyms. 
+# However they are exactly similar. 
 
 suspect_tokens = ["בראשית", "כרא", "ה'", "ח", "השמים", "ואת", "הארץ"]
 source_tokens = ["בראשית", "ברא", "אלוהים", "שמונה", "השמיים", "ואתהארץ" ]
