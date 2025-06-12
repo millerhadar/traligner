@@ -99,6 +99,28 @@ alignment_sequences, df_alignment, suspect_matrix, source_matrix = ta.alignment(
   (5, 5, 0.8, 'missing_spaces_match'),
   (6, 5, 0.8, 'missing_spaces_match')]]
 
+## Citation
+
+If you use TRAligner in your research, please cite our paper:
+
+```bibtex
+@article{miller2024text,
+  title={Text Alignment in the Service of Text Reuse Detection},
+  author={Miller, Hadar and Zhitomirsky-Geffet, Maayan},
+  journal={Applied Sciences},
+  volume={15},
+  number={6},
+  pages={3395},
+  year={2024},
+  publisher={MDPI},
+  doi={10.3390/app15063395},
+  url={https://www.mdpi.com/2076-3417/15/6/3395}
+}
+```
+
+Miller, H.; Kuflik, T.; Lavee, M. Text Alignment in the Service of Text Reuse Detection. *Applied Sciences* 2024, 15(6), 3395. [https://doi.org/10.3390/app15063395](https://doi.org/10.3390/app15063395)
+
+
 ## License
 
 MIT
