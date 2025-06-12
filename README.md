@@ -67,9 +67,7 @@ synonyms = ee.load_synonyms("path/to/elasticsearch/analysis/your_lexicon')
 
 
 # Use in alignment
-
-In the following example, the two texts exhibit word boundary errors, typographical mistakes, orthographic variations, differences in Gematria, and the use of synonyms.
-However they are exactly similar. 
+In the following example, the two texts exhibit word boundary errors, typographical mistakes, orthographic variations, differences in Gematria, and the use of synonyms. However they are exactly similar. 
 
 suspect_tokens = ["בראשית", "כרא", "ה'", "ח", "השמים", "ואת", "הארץ"]
 source_tokens = ["בראשית", "ברא", "אלוהים", "שמונה", "השמיים", "ואתהארץ" ]
