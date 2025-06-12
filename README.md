@@ -38,7 +38,7 @@ score, sequences = ta.alignmentScore(alignment_sequences)
 print(f"Alignment score: {score}")
 ```
 
-## The Results
+### The Results
 
 The alignment_sequences will look like this:
 [[(0, 0, 1, 'exact_match'),
@@ -90,7 +90,7 @@ alignment_sequences, df_alignment, suspect_matrix, source_matrix = ta.alignment(
 )
 ```
 
-# Results
+### Results
 [[(0, 0, 1, 'exact_match'),
   (1, 1, 0.8, 'ocr_replacables'),
   (2, 2, 1.0, 'synonym_simple_match'),
