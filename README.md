@@ -59,9 +59,12 @@ print(f"Alignment score: {score}")
 ```python
 # Initialize embedding model
 import fasttext
+embeding_model = fasttext.load_model("path/to/fasttext/model.bin")
+
+# Initialize Lexicons
 import trelasticext as ee # If you would like to use synonyms in Elasticsearch, you may load them from a file.
 synonyms = ee.load_synonyms("path/to/elasticsearch/analysis/your_lexicon')
-embeding_model = fasttext.load_model("path/to/fasttext/model.bin")
+
 
 # Use in alignment
 
