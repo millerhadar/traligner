@@ -106,12 +106,12 @@ If you use TRAligner in your research, please cite our paper:
 ```bibtex
 @article{miller2024text,
   title={Text Alignment in the Service of Text Reuse Detection},
-  author={Miller, Hadar and Zhitomirsky-Geffet, Maayan},
+  author={Miller, Hadar, Tsvi Kuflik, and Moshe Lavee},
   journal={Applied Sciences},
   volume={15},
   number={6},
   pages={3395},
-  year={2024},
+  year={2025},
   publisher={MDPI},
   doi={10.3390/app15063395},
   url={https://www.mdpi.com/2076-3417/15/6/3395}
